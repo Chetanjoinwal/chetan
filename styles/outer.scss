@@ -50,3 +50,34 @@
     flex: 1;
   }
 }
+
+.myImage {
+  margin-left: auto;
+
+  z-index: 1;
+  img{
+     filter: drop-shadow(-12px -4px 2px #dddddd) contrast(1.1);
+  }
+}
+@media (max-width: 992px) {
+ .ai-outer-container
+  {
+    flex-wrap: wrap;
+  }
+     .ai-outer .ai-outer-container .ai-outer-text {
+        position: relative;
+        padding-top: 99px;
+    }
+     .ai-outer .ai-outer-container .ai-outer-text .ai-outer-description {
+    margin: 50px 0px 0px;}
+    .ai-outer .ai-outer-container .ai-outer-text .ai-outer-heading2{
+      height: 30px;
+    }
+    .myImage{
+      margin: auto;
+    }
+    .ai-outer .ai-outer-container {
+    height: auto;
+}
+}
+ 

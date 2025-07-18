@@ -2,6 +2,7 @@ import React from 'react'
 import Gooery from '../../components/GooeryAnimation'
 import DecryptText from '../../components/DecryptText'
 import PropTypes from 'prop-types'
+import Image from 'next/image';
 
 
 const Outer = ({ data: {
@@ -9,12 +10,13 @@ const Outer = ({ data: {
     title2,
     decrypTexts,
     desciption,
-    button
+    button,
+    profile
 } }) => {
     return (
         <div className='ai-outer'>
             <div className='container'>
-                <div className='ai-outer-container d-flex justify-content-between align-items-center'>
+                <div className='ai-outer-container d-flex flex-wrap justify-content-between align-items-center'>
                     <div className='ai-outer-text'>
                         <div className='ai-outer-heading'>
                             {title1}
@@ -35,7 +37,12 @@ const Outer = ({ data: {
                                 {button?.label}
                             </button>
                         </div>
+ 
+                        
                     </div>
+                        <div className='ai-outer-image myImage'> 
+                               <Image width={350} height={450} src={profile.src} alt={profile.alt} />
+                                </div>
                     <div className='ai-outer-gooery'>
                         <Gooery />
                     </div>

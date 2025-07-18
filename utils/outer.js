@@ -12,6 +12,12 @@ const outer = {
     'React & Next.js Enthusiast',
 ]
 ,
+    profile :{
+        src: '../../assets/chetan.png',
+        alt: 'Chetan',
+       
+    }
+    ,
     desciption: `A dedicated and disciplined Full Stack engineer who love to create things for internet, having more than 4 years of field experience I've delivered projects to many happy clients over globe.`,
     button: {
         label: 'Contact me!',

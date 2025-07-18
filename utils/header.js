@@ -14,12 +14,13 @@ const header = {
     ],
     rightBtn: {
         label: 'Curriculum Vitae | CV',
-        onClick: () => openLink('assets/cv.pdf')
+        onClick: () => openLink('assets/cv1.pdf')
     },
     logo: {
         src: '/assets/profile.jpg',
         alt: 'Chetan'
     },
+    
     handleIconClick: () => scrollTo('home'),
     handleItemSelect: (menu) => scrollTo(menu.id),
 }
