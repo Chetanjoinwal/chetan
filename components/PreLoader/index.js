@@ -14,8 +14,8 @@ const PreLoader = () => {
     return (
         <div className={`ai-pre-loader ${loader ? 'ai-pre-loader-enabled' : 'ai-pre-loader-disabled'}`}>
             <div className='ai-pre-loader-boarder' />
-            <div className='ai-pre-loader-container'>
-                <AfzalImdad />
+            <div className='ai-pre-loader-container'> 
+                 <AfzalImdad />
             </div>
         </div>
     )

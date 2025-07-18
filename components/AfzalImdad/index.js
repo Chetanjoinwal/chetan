@@ -1,16 +1,17 @@
 import { useEffect, useRef, useState } from "react";
-import A from "./afzalImdadSVGs/A";
-import B from "./afzalImdadSVGs/B";
-import E1 from "./afzalImdadSVGs/E1";
-import E2 from "./afzalImdadSVGs/E2";
-import H from "./afzalImdadSVGs/H";
-import K1 from "./afzalImdadSVGs/K1";
-import K2 from "./afzalImdadSVGs/K2";
-import K3 from "./afzalImdadSVGs/K3";
-import M from "./afzalImdadSVGs/M";
-import N from "./afzalImdadSVGs/N";
-import N2 from "./afzalImdadSVGs/N2";
-import U from "./afzalImdadSVGs/U";
+// import A from "./afzalImdadSVGs/A";
+// import B from "./afzalImdadSVGs/B";
+// import E1 from "./afzalImdadSVGs/E1";
+// import E2 from "./afzalImdadSVGs/E2";
+// import H from "./afzalImdadSVGs/H";
+// import K1 from "./afzalImdadSVGs/K1";
+// import K2 from "./afzalImdadSVGs/K2";
+// import K3 from "./afzalImdadSVGs/K3";
+// import M from "./afzalImdadSVGs/M";
+// import N from "./afzalImdadSVGs/N";
+// import N2 from "./afzalImdadSVGs/N2";
+// import U from "./afzalImdadSVGs/U";
+import chetan from "./afzalImdadSVGs/chetan";
 
 const SvgWrapper = ({ SVG, className, ...rest }) => (
   <div
@@ -43,7 +44,12 @@ export default function AfzalImdad({ }) {
 
   return (
     <div ref={ref} className={`ai-afzal-imdad ${mount ? 'ai-afzal-imdad-visible' : ''}`}>
+      
       <SvgWrapper
+        className="ai_svg_M"
+        SVG={chetan}
+      />
+      {/* <SvgWrapper
         className="ai_svg_M"
         SVG={M}
       />
@@ -90,7 +96,7 @@ export default function AfzalImdad({ }) {
       <SvgWrapper
         className="ai_svg_N2"
         SVG={N2}
-      />
+      /> */}
     </div>
   )
 }
