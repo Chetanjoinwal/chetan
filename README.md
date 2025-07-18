@@ -6,7 +6,7 @@
 </p>
 <p align="center">
   Check Demo:
-  <a href="http://afzalimdad9.vercel.app" target="_blank">Personal Portfolio</a>
+  <a href="http://Chetan.vercel.app" target="_blank">Personal Portfolio</a>
 </p>
 
 <div align="center">
@@ -57,7 +57,7 @@ Your app is ready to be deployed!
 
 Yes I've made this project **public** for letting others to fork and use it
 
-I would be more than happy if you give me credit at **@afzalimdad9**
+I would be more than happy if you give me credit at **@Chetan**
 
 OpenSource contribution is something that makes internet more beautiful. So any Contributor who wants to make this website better can make contribution,which will be **greatly appreciated**.
 
@@ -69,4 +69,4 @@ OpenSource contribution is something that makes internet more beautiful. So any 
 
 Give a ⭐ if you like this website!
 
-<a href="https://www.buymeacoffee.com/afzalimdad9" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+<a href="https://www.buymeacoffee.com/Chetan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
