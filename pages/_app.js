@@ -60,6 +60,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="apple-touch-icon" href="../public/icons/32.png"></link>
       </Head>
       <Component {...pageProps} />
+ 
     </>
   );
 }
