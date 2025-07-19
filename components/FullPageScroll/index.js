@@ -18,14 +18,14 @@ export const dartPalettes = [
         layer1: '#100720',
         layer2: '#31087B',
         layer3: '#FA2FB5',
-        layer4: '#FFC23C',
+        layer4: '#5df8ffs',
     },
 ]
 
 const litePalettes = [
     {
         layer1: '#F8F6F6',
-        layer2: '#F5D061',
+        layer2: '#5df8ff',
         layer3: '#2A363B',
         layer4: '#CF4647',
     },
@@ -51,7 +51,7 @@ const litePalettes = [
     {
         layer1: '#222831',
         layer2: '#393E46',
-        layer3: '#FFD369',
+        layer3: '#5df8ff',
         layer4: '#EEEEEE', 
     },
     {
@@ -70,11 +70,11 @@ const litePalettes = [
         layer1: '#F8F8F8',
         layer2: '#434343',
         layer3: '#FAEBCD',
-        layer4: '#F7C873', 
+        layer4: '#5df8ff', 
     },
     {
         layer1: '#F8F6F6',
-        layer2: '#F5D061',
+        layer2: '#5df8ff',
         layer3: '#2A363B',
         layer4: '#CF4647',
     },
