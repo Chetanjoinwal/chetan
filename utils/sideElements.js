@@ -12,8 +12,8 @@ const handleIconClick = (icon) => {
 
 const sideElements = {
     emailButton: {
-        label: 'Chetan@gmail.com',
-        onClick: () => openLink('mailto:Chetan@gmail.com?subject=Hello')
+        label: 'chetank8202739@gmail.com',
+        onClick: () => openLink('mailto:chetank8202739@gmail.com?subject=Hello')
     },
     handleIconClick,
 }
