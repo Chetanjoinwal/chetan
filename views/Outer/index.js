@@ -41,7 +41,7 @@ const Outer = ({ data: {
                         
                     </div>
                         <div className='ai-outer-image myImage'> 
-                               <Image width={350} height={450} src={profile.src} alt={profile.alt} />
+                               <Image width={350} height={500} src={profile.src} alt={profile.alt} />
                                 </div>
                     <div className='ai-outer-gooery'>
                         <Gooery />
