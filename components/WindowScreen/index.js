@@ -11,7 +11,7 @@ const WindowScreen = ({ children, containerClassName }) => {
                 </div>
                 <div className='ai-url'>
                     <div className='ai-url-box'>
-                        {'http://localhost:1234'}
+                        {'https://chetan-alpha.vercel.app/'}
                     </div>
                 </div>
             </div>

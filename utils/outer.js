@@ -18,10 +18,10 @@ const outer = {
        
     }
     ,
-    desciption: `A dedicated and disciplined Full Stack engineer who love to create things for internet, having more than 4 years of field experience I've delivered projects to many happy clients over globe.`,
+    desciption: `Experienced front-end developer with strong skills in HTML, CSS, JavaScript, and experience with React, seeking a role where I can contribute to building high-performance and user-friendly web applications , Motivated and detail-oriented Front-End Developer with a growing focus on the MERN stack.`,
     button: {
         label: 'Contact me!',
-        onClick: () => openLink('mailto:chetank8202739@gmail.com?subject=Hello')
+        onClick: () => openLink('tel:+918860587852')
     }
 }
 

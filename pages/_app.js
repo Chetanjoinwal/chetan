@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'aos/dist/aos.css'
 
 import '../styles/globals.scss'
-
 import '/styles/header.scss'
 import '/styles/outer.scss'
 import '/styles/gooery.scss'
@@ -26,6 +25,7 @@ import '/styles/cursor.scss'
 import '/styles/afzalimdad.scss'
 import '/styles/pre-loader.scss'
 import '/styles/certifications.scss'
+import '/styles/laptop.scss'
 
 
 function MyApp({ Component, pageProps }) {

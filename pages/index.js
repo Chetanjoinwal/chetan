@@ -49,7 +49,7 @@ export default function Home() {
           <Reviews data={reviews} />
         </ViewElement>
         <ViewElement id="certifications">
-          <Certifications data={certifications} />
+          {/* <Certifications data={certifications} /> */}
         </ViewElement>
         {/* <ViewElement id="graphics">
           <Graphics data={graphics} />

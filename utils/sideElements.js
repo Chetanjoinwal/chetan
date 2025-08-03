@@ -2,10 +2,10 @@ import { openLink } from "./methods"
 
 const handleIconClick = (icon) => {
     const links = {
-        'github': 'https://github.com/Chetan',
-        'instagram': 'https://www.instagram.com/Chetan/',
-        'twitter': 'https://twitter.com/Chetan',
-        'linkedin': 'https://www.linkedin.com/in/Chetan/',
+        'github': 'https://github.com/Chetanjoinwal',
+        'instagram': 'https://www.instagram.com/chetan_joinwal.07/',
+        'twitter': 'https://twitter.com/ChetanJoinwal',
+        'linkedin': 'https://www.linkedin.com/in/chetan-kumar-7a4192260/',
     }
     openLink(links[icon])
 }

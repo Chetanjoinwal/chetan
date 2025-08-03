@@ -52,7 +52,7 @@ const Text = ({ text, index, clinet, via }) => {
     const setPositions = () => {
         const innerHeight = window.innerHeight;
         const currentRef = parallaxRef?.current;
-        const startPossition = currentRef.getBoundingClientRect().top + window.scrollY + 150;
+        const startPossition = currentRef.getBoundingClientRect().top + window.scrollY + 450;
         setStartScroll(startPossition - innerHeight)
         setEndScroll(startPossition + innerHeight)
     }

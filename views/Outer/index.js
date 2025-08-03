@@ -1,6 +1,7 @@
 import React from 'react'
 import Gooery from '../../components/GooeryAnimation'
 import DecryptText from '../../components/DecryptText'
+// import LaptopScene from '../../components/Laptop'
 import PropTypes from 'prop-types'
 import Image from 'next/image';
 
@@ -41,6 +42,8 @@ const Outer = ({ data: {
                         
                     </div>
                         <div className='ai-outer-image myImage'> 
+
+                        
                                <Image width={350} height={500} src={profile.src} alt={profile.alt} />
                                 </div>
                     <div className='ai-outer-gooery'>

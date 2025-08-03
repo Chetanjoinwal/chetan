@@ -19,6 +19,7 @@ const mySelf = {
 ],
 
     techList1: [
+        
         'JavaScript/TypeScript',
         'React.js/Native',
         'Express.js',
